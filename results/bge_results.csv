@@ -1,0 +1,4 @@
+model,dataset,type,mode,total_primary_encoding_time(s),total_text_encoding_time(s),avg_primary_encoding_time(ms),avg_text_encoding_time(ms),num_queries,recall@1,recall@5,recall@10,ndcg@1,ndcg@5,ndcg@10,mrr@1,mrr@5,mrr@10
+bge-base-zh-v1.5,t2retrieval,test,fp32,1737.6726,1737.6726,12.2876,12.2876,22812,0.2677,0.6859,0.8211,0.8883,0.8323,0.8317,0.8883,0.9135,0.9154
+bge-base-zh-v1.5,mmarcoretrieval,test,fp32,467.0642,467.0642,4.1045,4.1045,6980,0.6443,0.8393,0.8837,0.6655,0.7585,0.7734,0.6655,0.7355,0.7413
+bge-base-zh-v1.5,duretrieval,test,fp32,1358.549,1358.549,13.319,13.319,2000,0.2623,0.7554,0.8895,0.909,0.8611,0.881,0.909,0.9367,0.9372

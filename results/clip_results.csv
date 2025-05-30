@@ -1,0 +1,4 @@
+model,dataset,type,mode,total_primary_encoding_time(s),total_text_encoding_time(s),avg_primary_encoding_time(ms),avg_text_encoding_time(ms),num_queries,recall@1,recall@5,recall@10,ndcg@1,ndcg@5,ndcg@10,mrr@1,mrr@5,mrr@10
+clip-vit-base-patch32,flickr30k,test,fp32,4.1564,4.5975,4.1564,0.9195,5000,0.5796,0.8292,0.8994,0.5796,0.7149,0.7377,0.5796,0.6766,0.6861
+clip-vit-base-patch32,flickr8k,test,fp32,4.4463,4.0492,4.4463,0.8098,5000,0.533,0.8062,0.886,0.533,0.6813,0.7074,0.533,0.6394,0.6504
+clip-vit-base-patch32,coco,test,fp32,34.8851,21.2173,1.3948,0.8484,24855,0.3028,0.4105,0.4105,0.3031,0.3708,0.3708,0.3031,0.357,0.357

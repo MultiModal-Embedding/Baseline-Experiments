@@ -1,0 +1,3 @@
+model,dataset,type,mode,total_primary_encoding_time(s),total_text_encoding_time(s),avg_primary_encoding_time(ms),avg_text_encoding_time(ms),num_queries,recall@1,recall@5,recall@10,ndcg@1,ndcg@5,ndcg@10,mrr@1,mrr@5,mrr@10
+larger_clap_general,audiocaps,test,fp32,11.8542,4.6748,13.4249,1.0598,4411,0.2802,0.5706,0.7037,0.2802,0.4317,0.4747,0.2802,0.3858,0.4035
+larger_clap_general,clotho,test,fp32,10.0056,4.8453,9.5747,0.9273,5225,0.1411,0.3753,0.4995,0.1411,0.2609,0.3011,0.1411,0.2234,0.24
